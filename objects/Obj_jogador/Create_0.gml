@@ -1,3 +1,4 @@
+
 //criando functions
 
 //criando o teleporte
@@ -13,7 +14,7 @@ teleporte = function()
 		//invertendo a sprite
 		image_xscale = -1
 		//criando o efeito de teleporte
-		instance_create_layer(8,222,"jogador",Obj_efeito_tele)
+		instance_create_layer(8,222,"efeitos",Obj_efeito_tele)
 	}
 	//caso o _esq for true e se o objeto estiver na direita
 	if(_esq && image_xscale == -1)
@@ -22,6 +23,6 @@ teleporte = function()
 		//invertendo a sprite
 		image_xscale = 1
 		//criando o efeito de teleporte
-		instance_create_layer(8,222,"jogador",Obj_efeito_tele)
+		instance_create_layer(8,222,"efeitos",Obj_efeito_tele)
 	}
 }
